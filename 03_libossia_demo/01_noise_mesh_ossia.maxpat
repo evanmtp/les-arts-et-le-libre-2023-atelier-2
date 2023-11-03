@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 914.0, 414.0, 977.0, 667.0 ],
+		"rect" : [ 1408.0, 593.0, 977.0, 667.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,11 +42,36 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 1,
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 120.0, 240.0, 20.0 ],
+					"text" : "rendering"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 60.0, 150.0, 100.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 1,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 270.0, 240.0, 20.0 ],
+					"patching_rect" : [ 45.0, 330.0, 240.0, 20.0 ],
 					"text" : "models"
 				}
 
@@ -59,7 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 480.0, 195.0, 20.0 ],
+					"patching_rect" : [ 45.0, 525.0, 195.0, 20.0 ],
 					"text" : "entrées externes OSC et MIDI"
 				}
 
@@ -1099,7 +1124,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 45.0, 540.0, 150.0, 22.0 ],
+					"patching_rect" : [ 45.0, 585.0, 150.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1128,7 +1153,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 874.0, 744.0, 1484.0, 626.0 ],
+						"rect" : [ 1004.0, 440.0, 1484.0, 626.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2431,7 +2456,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 45.0, 510.0, 100.0, 22.0 ],
+					"patching_rect" : [ 45.0, 555.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2460,7 +2485,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 90.0, 270.0, 90.0 ],
+					"patching_rect" : [ 390.0, 120.0, 270.0, 90.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2487,7 +2512,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 165.0, 80.0, 36.0 ]
+					"patching_rect" : [ 135.0, 255.0, 80.0, 36.0 ]
 				}
 
 			}
@@ -2508,7 +2533,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 225.0, 270.0, 240.0 ],
+					"patching_rect" : [ 390.0, 255.0, 270.0, 240.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2543,7 +2568,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 165.0, 51.0, 22.0 ],
+					"patching_rect" : [ 60.0, 255.0, 51.0, 22.0 ],
 					"text" : "s draw_"
 				}
 
@@ -2555,7 +2580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 45.0, 330.0, 151.0, 22.0 ],
+					"patching_rect" : [ 45.0, 390.0, 151.0, 22.0 ],
 					"text" : "jit.gl.texture @dim 512 512"
 				}
 
@@ -2567,7 +2592,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 300.0, 49.0, 22.0 ],
+					"patching_rect" : [ 45.0, 360.0, 49.0, 22.0 ],
 					"text" : "r draw_"
 				}
 
@@ -2580,7 +2605,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 45.0, 360.0, 189.0, 22.0 ],
+					"patching_rect" : [ 45.0, 420.0, 189.0, 22.0 ],
 					"text" : "ossia.gl_bfg_simple.model noise1",
 					"varname" : "ossia.gl_bfg.model"
 				}
@@ -2594,7 +2619,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 90.0, 24.0, 24.0 ]
+					"patching_rect" : [ 60.0, 180.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2605,7 +2630,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 15.0, 120.0, 229.0, 22.0 ],
+					"patching_rect" : [ 60.0, 210.0, 229.0, 22.0 ],
 					"text" : "jit.world @erase_color 0 0 0 1 @enable 1"
 				}
 
@@ -2617,7 +2642,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 390.0, 215.0, 22.0 ],
+					"patching_rect" : [ 45.0, 450.0, 215.0, 22.0 ],
 					"text" : "ossia.gridshape_deform.model shape1"
 				}
 
@@ -2633,7 +2658,23 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 465.0, 225.0, 120.0 ],
+					"patching_rect" : [ 30.0, 510.0, 225.0, 120.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"grad1" : [ 0.870588235294118, 0.870588235294118, 0.870588235294118, 1.0 ],
+					"grad2" : [ 0.592156862745098, 0.592156862745098, 0.592156862745098, 1.0 ],
+					"id" : "obj-17",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 105.0, 270.0, 195.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2649,7 +2690,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 255.0, 270.0, 180.0 ],
+					"patching_rect" : [ 30.0, 315.0, 270.0, 180.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2658,7 +2699,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 54.5, 393.0, 54.5, 393.0 ],
+					"midpoints" : [ 54.5, 453.0, 54.5, 453.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -2680,7 +2721,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 129.5, 153.0, 24.5, 153.0 ],
+					"midpoints" : [ 174.5, 243.0, 69.5, 243.0 ],
 					"order" : 1,
 					"source" : [ "obj-2", 1 ]
 				}
@@ -2689,7 +2730,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 129.5, 153.0, 99.5, 153.0 ],
+					"midpoints" : [ 174.5, 243.0, 144.5, 243.0 ],
 					"order" : 0,
 					"source" : [ "obj-2", 1 ]
 				}
@@ -2706,6 +2747,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
