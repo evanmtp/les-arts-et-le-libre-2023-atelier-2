@@ -1242,7 +1242,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 375.0, 180.0, 100.0, 22.0 ],
+					"patching_rect" : [ 330.0, 105.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1261,7 +1261,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 375.0, 90.0, 49.0, 22.0 ],
+					"patching_rect" : [ 330.0, 15.0, 49.0, 22.0 ],
 					"text" : "register"
 				}
 
@@ -1273,8 +1273,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 90.0, 99.0, 22.0 ],
-					"text" : "expose oscquery"
+					"patching_rect" : [ 390.0, 15.0, 165.0, 22.0 ],
+					"text" : "expose oscquery 1235 5679"
 				}
 
 			}
@@ -1285,7 +1285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 375.0, 135.0, 180.0, 22.0 ],
+					"patching_rect" : [ 330.0, 60.0, 180.0, 22.0 ],
 					"text" : "ossia.device additive_synth"
 				}
 
@@ -1311,7 +1311,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 384.5, 123.0, 384.5, 123.0 ],
+					"midpoints" : [ 339.5, 48.0, 339.5, 48.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 

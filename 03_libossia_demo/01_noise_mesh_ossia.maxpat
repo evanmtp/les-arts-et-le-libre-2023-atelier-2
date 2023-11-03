@@ -109,7 +109,6 @@
 						"style" : "",
 						"subpatcher_template" : "evan_",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.12549, 0.796078, 0.894118, 1.0 ],
