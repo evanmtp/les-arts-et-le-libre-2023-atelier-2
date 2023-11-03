@@ -1261,7 +1261,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 90.0, 49.0, 22.0 ],
+					"patching_rect" : [ 375.0, 90.0, 49.0, 22.0 ],
 					"text" : "register"
 				}
 
@@ -1273,7 +1273,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 375.0, 90.0, 99.0, 22.0 ],
+					"patching_rect" : [ 435.0, 90.0, 99.0, 22.0 ],
 					"text" : "expose oscquery"
 				}
 
@@ -1311,7 +1311,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 504.5, 123.0, 384.5, 123.0 ],
+					"midpoints" : [ 384.5, 123.0, 384.5, 123.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
