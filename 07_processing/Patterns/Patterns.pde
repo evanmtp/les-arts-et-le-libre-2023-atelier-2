@@ -6,8 +6,8 @@
  
 import io.ossia.*;
 
-Protocol p = new OscQueryServer(1235, 5679);
-Device d = new Device(p, "Processing_OSCQuery");
+Protocol p = new OscQueryServer(1237, 5681);
+Device d = new Device(p, "Processing_Patterns");
 
 // declare ossia Parameters
 Parameter my_color;             // Number of boxes
@@ -40,7 +40,7 @@ void setup() {
   my_x = root.newChild()
              .name("/x")
              .type("float")
-             .value(0)
+             .value(0.5)
              //.domain(0., 1.)
              .get()
              ;
@@ -48,7 +48,7 @@ void setup() {
   my_y = root.newChild()
              .name("/y")
              .type("float")
-             .value(0.)
+             .value(0.5)
              .domain(0., 1.)
              .get()
              ;
