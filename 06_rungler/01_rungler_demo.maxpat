@@ -40,6 +40,16 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 330.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -47,18 +57,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 480.0, 600.0, 34.0 ],
 					"text" : "originale par bertrandfraysse\nhttps://cycling74.com/forums/sharing-is-rungling-stepped-havoc-in-gen#reply-58ed214943f50b22d4bb6505"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 285.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1295,24 +1293,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 330.0, 50.0, 22.0 ],
-					"text" : "dac~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 90.0, 30.0, 159.0, 22.0 ],
-					"text" : "expose oscquery 1235 5679"
+					"text" : "expose oscquery 1236 5680"
 				}
 
 			}
@@ -1336,7 +1323,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 75.0, 75.0, 36.0 ],
+					"patching_rect" : [ 30.0, 75.0, 78.0, 36.0 ],
 					"text" : "ossia.device rungler"
 				}
 
@@ -1356,14 +1343,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
+					"destination" : [ "obj-3", 1 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1380,13 +1367,6 @@
 					"destination" : [ "obj-13", 0 ],
 					"midpoints" : [ 495.5, 93.0, 474.5, 93.0 ],
 					"source" : [ "obj-15", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-17", 0 ]
 				}
 
 			}
