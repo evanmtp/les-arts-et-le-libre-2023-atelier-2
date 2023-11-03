@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 132.0, 794.0, 392.0 ],
+		"rect" : [ 1208.0, 590.0, 794.0, 392.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -73,6 +73,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -96,6 +97,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -121,12 +123,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 45.0, 285.0, 34.0 ],
-					"text" : "Vous pouvez imbriquer des modèles dans d’autres modèles pour créer des structures plus complexes."
+					"patching_rect" : [ 30.0, 45.0, 285.0, 48.0 ],
+					"text" : "Vous pouvez imbriquer (nest) des modèles dans d’autres modèles pour créer des structures plus complexes."
 				}
 
 			}
@@ -165,21 +167,21 @@
 			}
 , 			{
 				"name" : "ossia.filter.gui.view.maxpat",
-				"bootpath" : "~/Downloads/_Work/SAT workshop - Les arts et le libre/patches/03_libossia",
+				"bootpath" : "~/Documents/GitHub/les-arts-et-le-libre-2023-atelier-2/04_libossia_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.filter.model.maxpat",
-				"bootpath" : "~/Downloads/_Work/SAT workshop - Les arts et le libre/patches/03_libossia",
+				"bootpath" : "~/Documents/GitHub/les-arts-et-le-libre-2023-atelier-2/04_libossia_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.filter.view.maxpat",
-				"bootpath" : "~/Downloads/_Work/SAT workshop - Les arts et le libre/patches/03_libossia",
+				"bootpath" : "~/Documents/GitHub/les-arts-et-le-libre-2023-atelier-2/04_libossia_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -202,14 +204,14 @@
 			}
 , 			{
 				"name" : "ossia.voice.model.maxpat",
-				"bootpath" : "~/Downloads/_Work/SAT workshop - Les arts et le libre/patches/03_libossia",
+				"bootpath" : "~/Documents/GitHub/les-arts-et-le-libre-2023-atelier-2/04_libossia_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.voice.view.maxpat",
-				"bootpath" : "~/Downloads/_Work/SAT workshop - Les arts et le libre/patches/03_libossia",
+				"bootpath" : "~/Documents/GitHub/les-arts-et-le-libre-2023-atelier-2/04_libossia_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

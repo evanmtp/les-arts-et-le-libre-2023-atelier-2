@@ -41,17 +41,18 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 330.0, 315.0, 62.0 ],
-					"text" : "each ossia.parameter within a level of the hierarchy must have a unique name. If you create an ossia.parameter with a duplicate name, libossia will automatically give it a numerical suffix (e.g. myData.1)."
+					"patching_rect" : [ 210.0, 330.0, 315.0, 75.0 ],
+					"text" : "Dans un niveau de la hiérarchie, chaque ossia.parameter doit avoir un nom unique. Si vous créez un ossia.parameter avec un nom en double, libossia lui attribuera automatiquement un suffixe numérique (par exemple myData.1)."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -90,6 +91,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -108,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 15.0, 160.0, 20.0 ],
-					"text" : "duplicate parameters"
+					"text" : "paramètres en double"
 				}
 
 			}
@@ -126,6 +128,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -164,6 +167,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -176,6 +180,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,

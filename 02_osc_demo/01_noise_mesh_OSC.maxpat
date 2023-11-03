@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 667.0, 85.0, 1852.0, 929.0 ],
+		"rect" : [ 632.0, 359.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -230,7 +230,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 270.0, 225.0, 22.0 ],
-					"text" : "/bruit/colour/c2 1."
+					"text" : "/bruit/scale/y 0.4088"
 				}
 
 			}
@@ -242,7 +242,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 330.0, 225.0, 22.0 ],
-					"text" : "1."
+					"text" : "0.4088"
 				}
 
 			}
@@ -266,7 +266,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 300.0, 224.615388870239258, 22.0 ],
-					"text" : "/bruit/colour/c2"
+					"text" : "/bruit/scale/y"
 				}
 
 			}
@@ -385,10 +385,10 @@
 					"id" : "obj-178",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1245.0, 435.0, 141.0, 22.0 ],
-					"text" : "OSC-route /speed /zoom"
+					"text" : "OSC-route /speed"
 				}
 
 			}
@@ -411,7 +411,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1065.0, 464.893615245819092, 101.0, 22.0 ],
+					"patching_rect" : [ 1065.0, 435.0, 101.0, 22.0 ],
 					"text" : "OSC-route /scale"
 				}
 
@@ -613,18 +613,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 615.0, 150.0, 39.0 ],
 					"text" : "formatage des messages"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-150",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1470.0, 539.893615245819092, 77.0, 22.0 ],
-					"text" : "loadmess 10"
 				}
 
 			}
@@ -1113,31 +1101,6 @@
 			}
 , 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-34",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1440.0, 479.893615245819092, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-32",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1440.0, 584.893615245819092, 85.0, 22.0 ],
-					"text" : "prepend zoom"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1218,7 +1181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 60.0, 285.0, 48.0 ],
-					"text" : "exemple de Amazing Max Stuff\n\nhttps://www.youtube.com/watch?v=afZPymIXg20"
+					"text" : "source: Amazing Max Stuff\n\nhttps://www.youtube.com/watch?v=afZPymIXg20"
 				}
 
 			}
@@ -1598,14 +1561,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 1479.5, 572.893615245819092, 1449.5, 572.893615245819092 ],
-					"source" : [ "obj-150", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 864.5, 617.893615245819092, 819.5, 617.893615245819092 ],
 					"source" : [ "obj-16", 0 ]
@@ -1721,15 +1676,6 @@
 					"color" : [ 0.0, 0.0, 1.0, 1.0 ],
 					"destination" : [ "obj-180", 0 ],
 					"source" : [ "obj-178", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 1.0, 1.0 ],
-					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 1315.5, 467.89361560344696, 1449.5, 467.89361560344696 ],
-					"source" : [ "obj-178", 1 ]
 				}
 
 			}
@@ -1969,25 +1915,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 1.0, 1.0 ],
-					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 1449.5, 619.209404706954956, 819.5, 619.209404706954956 ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 1.0, 1.0 ],
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-34", 0 ]
 				}
 
 			}

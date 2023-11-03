@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 695.0, 393.0, 921.0, 925.0 ],
+		"rect" : [ 946.0, 399.0, 921.0, 925.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -136,19 +136,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1395.0, 720.0, 50.0, 36.0 ],
-					"text" : "479.871198"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -204,7 +191,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 135.0, 50.0, 22.0 ],
-					"text" : "4 70"
+					"text" : "1 51"
 				}
 
 			}
@@ -270,7 +257,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1440.0, 375.0, 60.0, 20.0 ],
+					"patching_rect" : [ 1440.0, 360.0, 60.0, 20.0 ],
 					"text" : "shader"
 				}
 
@@ -1650,7 +1637,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 60.0, 285.0, 48.0 ],
-					"text" : "exemple de Amazing Max Stuff\n\nhttps://www.youtube.com/watch?v=afZPymIXg20"
+					"text" : "source: Amazing Max Stuff\n\nhttps://www.youtube.com/watch?v=afZPymIXg20"
 				}
 
 			}
@@ -2884,15 +2871,6 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 1.0, 1.0 ],
 					"destination" : [ "obj-25", 0 ],
-					"order" : 1,
-					"source" : [ "obj-92", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"order" : 0,
 					"source" : [ "obj-92", 0 ]
 				}
 

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 132.0, 841.0, 669.0 ],
+		"rect" : [ 1020.0, 525.0, 841.0, 669.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 375.0, 30.0, 360.0, 75.0 ],
-					"text" : "Vous pouvez créer une view en utilisant ossia.view. Les view sont généralement les interfaces utilisateur de vos models. Ils contiennent généralement des objets d'interface utilisateur connectés à ossia.remotes et ne contiennent pas ossia.parameters."
+					"text" : "Vous pouvez créer une view en utilisant ossia.view. Les views sont généralement les interfaces utilisateur de vos models. Ils contiennent typiquement des objets d'interface utilisateur connectés à ossia.remotes et ne contiennent pas des ossia.parameters."
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 375.0, 435.0, 360.0, 34.0 ],
+					"patching_rect" : [ 375.0, 510.0, 360.0, 34.0 ],
 					"text" : "Vous pouvez créer plusieurs vues pour le même modèle. Cela vous permet de développer des interfaces alternatives."
 				}
 
@@ -90,7 +90,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 375.0, 285.0, 225.0, 150.0 ],
+					"patching_rect" : [ 375.0, 360.0, 210.0, 135.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -118,6 +118,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -141,6 +142,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -177,11 +179,12 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 15.0, 150.0, 20.0 ],
+					"patching_rect" : [ 15.0, 15.0, 45.0, 20.0 ],
 					"text" : "Views"
 				}
 
@@ -209,21 +212,21 @@
 			}
 , 			{
 				"name" : "ossia.filter.gui.view.maxpat",
-				"bootpath" : "~/Downloads/_Work/SAT workshop - Les arts et le libre/patches/03_libossia",
+				"bootpath" : "~/Documents/GitHub/les-arts-et-le-libre-2023-atelier-2/04_libossia_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.filter.model.maxpat",
-				"bootpath" : "~/Downloads/_Work/SAT workshop - Les arts et le libre/patches/03_libossia",
+				"bootpath" : "~/Documents/GitHub/les-arts-et-le-libre-2023-atelier-2/04_libossia_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ossia.filter.view.maxpat",
-				"bootpath" : "~/Downloads/_Work/SAT workshop - Les arts et le libre/patches/03_libossia",
+				"bootpath" : "~/Documents/GitHub/les-arts-et-le-libre-2023-atelier-2/04_libossia_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

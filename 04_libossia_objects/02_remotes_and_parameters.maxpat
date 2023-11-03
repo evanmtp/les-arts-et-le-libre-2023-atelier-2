@@ -78,6 +78,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -90,6 +91,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -117,12 +119,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-12",
-					"linecount" : 8,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 330.0, 150.0, 121.0 ],
-					"text" : "You can attach more than one ossia.remote to the same ossia.parameter. This is useful for passing data to multiple locations, and also for building interfaces."
+					"patching_rect" : [ 210.0, 330.0, 225.0, 93.0 ],
+					"text" : "Vous pouvez attacher plusieurs ossia.remote au même ossia.parameter. Ceci est utile pour transmettre des données à plusieurs emplacements, ainsi que pour créer des interfaces."
 				}
 
 			}
@@ -135,7 +137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 180.0, 255.0, 270.0, 52.0 ],
-					"text" : "ossia.remote allows you to send and receive data to an ossia.parameter that shares the same name."
+					"text" : "ossia.remote vous permet d'envoyer et de recevoir des données vers un ossia.parameter qui partage le même nom."
 				}
 
 			}
@@ -143,12 +145,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-8",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 150.0, 227.0, 38.0 ],
-					"text" : "ossia.parameter creates a node that can store, receive and output data."
+					"patching_rect" : [ 195.0, 135.0, 227.0, 52.0 ],
+					"text" : "ossia.parameter crée un nœud qui peut conserver, recevoir et transmettre des données."
 				}
 
 			}
@@ -167,6 +169,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -179,6 +182,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,

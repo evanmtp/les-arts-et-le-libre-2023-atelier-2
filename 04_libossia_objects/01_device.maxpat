@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 901.0, 783.0, 609.0, 223.0 ],
+		"rect" : [ 778.0, 760.0, 609.0, 223.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.125490196078431, 0.796078431372549, 0.894117647058824, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -70,19 +71,19 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 105.0, 318.0, 62.0 ],
-					"text" : "Passing the message \"expose oscquery\" to an ossia.device exposes it via the OSCQuery protocol. It can then be detected by other applications that use OSCQuery, like Ossia Score."
+					"text" : "Passer le message \"expose oscquery\" à un ossia.device l'expose via le protocole OSCQuery. Il peut ensuite être détecté par d'autres applications utilisant OSCQuery, comme Ossia Score."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 45.0, 330.0, 34.0 ],
-					"text" : "ossia.device creates the top level of the address hierarchy. All other objects are registered under the ossia.device."
+					"patching_rect" : [ 30.0, 45.0, 330.0, 48.0 ],
+					"text" : "ossia.device crée le niveau supérieur de la hiérarchie des adresses. Tous les autres objets sont enregistrés sous ossia.device."
 				}
 
 			}
