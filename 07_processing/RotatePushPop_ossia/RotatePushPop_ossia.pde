@@ -8,8 +8,8 @@
 
 import io.ossia.*;
 
-Protocol p = new OscQueryServer(1235, 5679);
-Device d = new Device(p, "Processing_OSCQuery");
+Protocol p = new OscQueryServer(1238, 5682);
+Device d = new Device(p, "RotatePushPop");
 
 // declare ossia Parameters
 //Parameter angleFactor;      // Angle of rotation
@@ -25,7 +25,7 @@ float a;                 // Angle of rotation
 
 void setup() { 
   colorMode(HSB);
-  size(1920, 1080, P3D);
+  size(960, 540, P3D);
   noStroke();  
   
   
@@ -78,9 +78,8 @@ void setup() {
 void draw() {
   
   lights();
-  //background(0, 0, 0, 0.9);
-  fill(255, 255, 0, 255);
-  rect(0, 0, width/2, height/2);
+  background(0, 0, 0, 1);
+  
   // retrieve values from nodes
   int num = my_num.getValue().asInt();
   int scale = my_scale.getValue().asInt();
