@@ -22,7 +22,7 @@ Parameter my_mouseX;
 Parameter my_mouseY;
 
 void setup() {
-  size(1920, 1080);
+  size(960, 540);
   background(102);
   
   Node root = d.getRootNode();
