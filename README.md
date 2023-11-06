@@ -10,7 +10,7 @@ Le diaporama peut être consulté [ici](https://docs.google.com/presentation/d/1
 
 ### Logiciels:
 - [ossia score](https://ossia.io/score/about.html)
-- [ossia-max](https://github.com/ossia/libossia/releases)
+- [ossia-max](https://github.com/ossia/libossia/releases/tag/v2.0.0-rc2)
 - [ossia-java](https://github.com/ossia/libossia/releases/tag/latest-ci-build) (pour Processing)
 - [Max](https://cycling74.com/downloads)
   [Processing](https://processing.org/download)
@@ -26,7 +26,7 @@ The slide deck can be viewed [here](https://docs.google.com/presentation/d/19SYy
 
 ### Software:
 - [ossia score](https://ossia.io/score/about.html)
-- [ossia-max](https://github.com/ossia/libossia/releases)
+- [ossia-max](https://github.com/ossia/libossia/releases/tag/v2.0.0-rc2)
 - [ossia-java](https://github.com/ossia/libossia/releases/tag/latest-ci-build) (pour Processing)
 - [Max](https://cycling74.com/downloads)
 - [Processing](https://processing.org/download)
