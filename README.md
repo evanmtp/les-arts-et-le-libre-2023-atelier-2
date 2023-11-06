@@ -6,6 +6,8 @@ Patches et partitions pour l'atelier Création numérique interactive intermédi
 
 Les fichiers multimédias à utiliser lors de l'atelier peuvent être téléchargés à partir de [ce dossier partagé](https://drive.google.com/drive/u/0/folders/1kFoqUTAzDQSw3_g7n7aWVWh4Nc6XON0O).
 
+Le diaporama peut être consulté [ici](https://docs.google.com/presentation/d/19SYyyE_WXwb8H6iUe_7x_cpMHliYXCCFzXLtYv3-Crk/edit#slide=id.g292bb4d321e_0_0).
+
 ### Logiciels:
 - [ossia score](https://ossia.io/score/about.html)
 - [ossia-max](https://github.com/ossia/libossia/releases)
@@ -19,6 +21,8 @@ Les fichiers multimédias à utiliser lors de l'atelier peuvent être téléchar
 Patches and scores related to the workshop Création numérique interactive intermédia, presented by Evan Montpellier and Pía Baltazar as part of the series [Les arts et le libre](https://sat.qc.ca/fr/formations/les-arts-et-le-libre) organized by the [Société des arts technologiques](https://sat.qc.ca/)
 
 Media files can be downloaded from [this shared folder](https://drive.google.com/drive/u/0/folders/1kFoqUTAzDQSw3_g7n7aWVWh4Nc6XON0O).
+
+The slide deck can be viewed [here](https://docs.google.com/presentation/d/19SYyyE_WXwb8H6iUe_7x_cpMHliYXCCFzXLtYv3-Crk/edit#slide=id.g292bb4d321e_0_0).
 
 ### Software:
 - [ossia score](https://ossia.io/score/about.html)
