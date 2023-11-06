@@ -13,7 +13,7 @@ Le diaporama peut être consulté [ici](https://docs.google.com/presentation/d/1
 - [ossia-max](https://github.com/ossia/libossia/releases/tag/v2.0.0-rc2)
 - [ossia-java](https://github.com/ossia/libossia/releases/tag/latest-ci-build) (pour Processing)
 - [Max](https://cycling74.com/downloads)
-  [Processing](https://processing.org/download)
+- [Processing](https://processing.org/download)
 - [Open Stage Control](https://openstagecontrol.ammd.net/)
 
 ## [en]
