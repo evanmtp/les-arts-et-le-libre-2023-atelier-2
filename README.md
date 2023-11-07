@@ -9,7 +9,7 @@ Les fichiers multimédias à utiliser lors de l'atelier peuvent être téléchar
 Le diaporama peut être consulté [ici](https://docs.google.com/presentation/d/19SYyyE_WXwb8H6iUe_7x_cpMHliYXCCFzXLtYv3-Crk/edit#slide=id.g292bb4d321e_0_0).
 
 ### Logiciels:
-- [ossia score](https://github.com/ossia/score/releases)
+- [ossia score]([https://github.com/ossia/score/releases](https://github.com/ossia/score/releases/tag/v3.1.11))
 - [ossia-max](https://github.com/ossia/libossia/releases/tag/v2.0.0-rc2)
 - [ossia-java](https://github.com/ossia/libossia/releases/tag/latest-ci-build) (pour Processing)
 - [Max](https://cycling74.com/downloads)
@@ -27,7 +27,7 @@ Media files can be downloaded from [this shared folder](https://drive.google.com
 The slide deck can be viewed [here](https://docs.google.com/presentation/d/19SYyyE_WXwb8H6iUe_7x_cpMHliYXCCFzXLtYv3-Crk/edit#slide=id.g292bb4d321e_0_0).
 
 ### Software:
-- [ossia score](https://github.com/ossia/score/releases)
+- [ossia score]([https://github.com/ossia/score/releases](https://github.com/ossia/score/releases/tag/v3.1.11))
 - [ossia-max](https://github.com/ossia/libossia/releases/tag/v2.0.0-rc2)
 - [ossia-java](https://github.com/ossia/libossia/releases/tag/latest-ci-build) (for Processing)
 - [Max](https://cycling74.com/downloads)
