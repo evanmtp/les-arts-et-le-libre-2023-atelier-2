@@ -1,3 +1,5 @@
+// requires oscP5 (Import Library -> Manage Libraries)
+
 import oscP5.*;  
 import netP5.*;
 
