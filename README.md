@@ -2,7 +2,7 @@
 
 ## [fr]
 
-Patches et partitions pour l'atelier Création numérique interactive intermédia, présenté par Evan Montpellier et Pía Baltazar dans le cadre du programme [Les arts et le libre](https://sat.qc.ca/fr/formations/les-arts-et-le-libre) organisé par la [Société des arts technologiques](https://sat.qc.ca/)
+Patches et partitions pour l'atelier Création numérique interactive intermédia, présenté par Evan Montpellier et Pía Baltazar dans le cadre du programme [Les arts et le libre](https://sat.qc.ca/fr/formations/les-arts-et-le-libre) organisé par la [Société des arts technologiques](https://sat.qc.ca/).
 
 Les fichiers multimédias à utiliser lors de l'atelier peuvent être téléchargés à partir de [ce dossier partagé](https://drive.google.com/drive/u/0/folders/1kFoqUTAzDQSw3_g7n7aWVWh4Nc6XON0O).
 
@@ -20,7 +20,7 @@ Le diaporama peut être consulté [ici](https://docs.google.com/presentation/d/1
 
 ## [en]
 
-Patches and scores related to the workshop Création numérique interactive intermédia, presented by Evan Montpellier and Pía Baltazar as part of the series [Les arts et le libre](https://sat.qc.ca/fr/formations/les-arts-et-le-libre) organized by the [Société des arts technologiques](https://sat.qc.ca/)
+Patches and scores related to the workshop Création numérique interactive intermédia, presented by Evan Montpellier and Pía Baltazar as part of the series [Les arts et le libre](https://sat.qc.ca/fr/formations/les-arts-et-le-libre) organized by the [Société des arts technologiques](https://sat.qc.ca/).
 
 Media files can be downloaded from [this shared folder](https://drive.google.com/drive/u/0/folders/1kFoqUTAzDQSw3_g7n7aWVWh4Nc6XON0O).
 
